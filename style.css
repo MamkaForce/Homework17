@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin: 0px;
+    font-family: 'Montserrat';
+    display: block;
+}
+
+body{
+    background: url("back.jpg");
+}
+
+form{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.user{
+    margin: auto;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.text{
+    margin: auto;
+    margin-top: 0px;
+    border: 1px solid white;
+    height: 30px;
+    width: 350px;
+    padding-left: 40px;
+}
+
+.ico{
+    height: 25px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+#rememb{
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+label{
+    position: relative;
+    left: 23px;
+    bottom: 15px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+    color: white;
+    opacity: 0.3;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(46, 46, 46);
+    border: 1px solid rgb(46, 46, 46);
+    color: white;
+    opacity: 0.7;
+    margin: auto;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 1;
+}
